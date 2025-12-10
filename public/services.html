@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services & Pricing | Deanna Camacho</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="{D Logo" class="logo-img" />
+          <span class="logo-name">Deanna Camacho</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="services-hero">
+      <div class="container">
+        <p class="services-label">// Services & Pricing</p>
+        <h1 class="services-title">Web Design Packages</h1>
+        <p class="services-subtitle">
+          Clean code. Responsive design. Real results.
+        </p>
+        <p class="services-intro">
+          Custom websites built to perform. Choose the package that fits your
+          goals and budget — from simple landing pages to full-featured business
+          sites.
+        </p>
+      </div>
+    </section>
+
+    <!-- Package Cards -->
+    <section class="packages-section">
+      <div class="container">
+        <div class="packages-grid">
+          <!-- Package 1: Starter -->
+          <div class="package-card">
+            <p class="package-badge">// Package 01</p>
+            <h2 class="package-name">STARTER</h2>
+            <p class="package-tagline">One-Page Website</p>
+            <p class="package-price">$500–$700</p>
+            <p class="package-price-note">
+              Perfect for launching your online presence
+            </p>
+            <p class="package-description">
+              A clean, professional single-page website built to get you online
+              fast. Fully responsive, optimized for performance, and designed to
+              make a strong first impression.
+            </p>
+            <ul class="package-features">
+              <li>Custom one-page responsive design</li>
+              <li>Hero, About, Services, Testimonials & Contact sections</li>
+              <li>Brand color palette & typography</li>
+              <li>Mobile & tablet optimized</li>
+              <li>Contact form setup</li>
+              <li>Social media integration</li>
+              <li>Basic SEO setup</li>
+              <li>1 round of revisions</li>
+              <li>Launch setup & domain connection</li>
+            </ul>
+            <a href="index.html#contact" class="package-cta">Get Started</a>
+          </div>
+
+          <!-- Package 2: Pro -->
+          <div class="package-card featured">
+            <p class="package-badge">// Package 02</p>
+            <h2 class="package-name">PRO</h2>
+            <p class="package-tagline">5-Page Website</p>
+            <p class="package-price">$1,500–$2,500</p>
+            <p class="package-price-note">For businesses ready to scale</p>
+            <p class="package-description">
+              A complete website with room to grow. Multiple pages, enhanced
+              features, and interactive elements that engage visitors and
+              convert them into clients.
+            </p>
+            <ul class="package-features">
+              <li>Up to 5 custom-designed pages</li>
+              <li>Home, About, Services, Portfolio & Contact</li>
+              <li>Responsive design for all devices</li>
+              <li>Brand color palette & typography</li>
+              <li>Basic SEO setup</li>
+              <li>Choice of 2 integrated features*</li>
+              <li>2 rounds of revisions</li>
+              <li>Launch setup & testing</li>
+            </ul>
+            <p
+              style="
+                font-size: 0.8rem;
+                color: var(--text-muted);
+                margin-bottom: 1.5rem;
+                font-style: italic;
+              "
+            >
+              *Features: Testimonials slider, FAQ section, Image gallery,
+              Enhanced footer, Contact form with email forwarding, Animations
+            </p>
+            <a href="index.html#contact" class="package-cta">Get Started</a>
+          </div>
+
+          <!-- Package 3: Enterprise -->
+          <div class="package-card">
+            <p class="package-badge">// Package 03</p>
+            <h2 class="package-name">ENTERPRISE</h2>
+            <p class="package-tagline">Premium Website + Brand Kit</p>
+            <p class="package-price">$2,800–$3,500</p>
+            <p class="package-price-note">
+              The complete package for established brands
+            </p>
+            <p class="package-description">
+              Everything you need to stand out. Extended pages, premium design
+              features, and a brand style guide to keep your visual identity
+              consistent across all platforms.
+            </p>
+            <ul class="package-features">
+              <li>Everything in Pro, plus:</li>
+              <li>Up to 7 custom-designed pages</li>
+              <li>Custom color palette & typography pairing</li>
+              <li>Mood board & visual direction</li>
+              <li>Brand style guide (PDF)</li>
+              <li>Premium design enhancements</li>
+              <li>Section dividers & animations</li>
+              <li>Custom button styles</li>
+              <li>Advanced layout structure</li>
+              <li>3 rounds of revisions</li>
+            </ul>
+            <a href="index.html#contact" class="package-cta">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="comparison-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Compare Packages</h2>
+          <p class="section-subtitle">Find the right fit for your project</p>
+        </div>
+
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Features</th>
+              <th>Starter</th>
+              <th class="featured-col">Pro</th>
+              <th>Enterprise</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="category-row">
+              <td colspan="4">Website Essentials</td>
+            </tr>
+            <tr>
+              <td>Number of Pages</td>
+              <td>1</td>
+              <td class="featured-col">Up to 5</td>
+              <td>Up to 7</td>
+            </tr>
+            <tr>
+              <td>Custom Responsive Design</td>
+              <td><span class="check">✓</span></td>
+              <td class="featured-col"><span class="check">✓</span></td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr>
+              <td>Mobile & Tablet Optimized</td>
+              <td><span class="check">✓</span></td>
+              <td class="featured-col"><span class="check">✓</span></td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr>
+              <td>Contact Form Setup</td>
+              <td><span class="check">✓</span></td>
+              <td class="featured-col"><span class="check">✓</span></td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr>
+              <td>Social Media Integration</td>
+              <td><span class="check">✓</span></td>
+              <td class="featured-col"><span class="check">✓</span></td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr>
+              <td>Basic SEO Setup</td>
+              <td><span class="check">✓</span></td>
+              <td class="featured-col"><span class="check">✓</span></td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr class="category-row">
+              <td colspan="4">Design & Branding</td>
+            </tr>
+            <tr>
+              <td>Brand Color Palette</td>
+              <td>Basic</td>
+              <td class="featured-col">Custom</td>
+              <td>Premium Custom</td>
+            </tr>
+            <tr>
+              <td>Typography Styling</td>
+              <td><span class="check">✓</span></td>
+              <td class="featured-col"><span class="check">✓</span></td>
+              <td>Custom Pairing</td>
+            </tr>
+            <tr>
+              <td>Mood Board</td>
+              <td><span class="dash">—</span></td>
+              <td class="featured-col"><span class="dash">—</span></td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr>
+              <td>Brand Style Guide (PDF)</td>
+              <td><span class="dash">—</span></td>
+              <td class="featured-col"><span class="dash">—</span></td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr class="category-row">
+              <td colspan="4">Enhanced Features</td>
+            </tr>
+            <tr>
+              <td>Interactive Features</td>
+              <td><span class="dash">—</span></td>
+              <td class="featured-col">Choose 2</td>
+              <td>All Included</td>
+            </tr>
+            <tr>
+              <td>Testimonials Slider</td>
+              <td><span class="dash">—</span></td>
+              <td class="featured-col">Optional</td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr>
+              <td>FAQ Section</td>
+              <td><span class="dash">—</span></td>
+              <td class="featured-col">Optional</td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr>
+              <td>Image Gallery</td>
+              <td><span class="dash">—</span></td>
+              <td class="featured-col">Optional</td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr>
+              <td>Animations</td>
+              <td><span class="dash">—</span></td>
+              <td class="featured-col">Optional</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>Section Dividers</td>
+              <td><span class="dash">—</span></td>
+              <td class="featured-col"><span class="dash">—</span></td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr>
+              <td>Custom Button Styles</td>
+              <td><span class="dash">—</span></td>
+              <td class="featured-col"><span class="dash">—</span></td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr class="category-row">
+              <td colspan="4">Support & Revisions</td>
+            </tr>
+            <tr>
+              <td>Rounds of Revisions</td>
+              <td>1</td>
+              <td class="featured-col">2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>Launch Setup & Testing</td>
+              <td><span class="check">✓</span></td>
+              <td class="featured-col"><span class="check">✓</span></td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr>
+              <td>Domain Connection</td>
+              <td><span class="check">✓</span></td>
+              <td class="featured-col"><span class="check">✓</span></td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr class="category-row">
+              <td colspan="4">Investment</td>
+            </tr>
+            <tr>
+              <td>Starting At</td>
+              <td><strong>$500</strong></td>
+              <td class="featured-col"><strong>$1,500</strong></td>
+              <td><strong>$2,800</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">How It Works</h2>
+          <p class="section-subtitle">
+            A straightforward process from kickoff to launch
+          </p>
+        </div>
+        <div class="process-grid">
+          <div class="process-step">
+            <div class="process-number">01</div>
+            <h3 class="process-title">Discovery</h3>
+            <p class="process-desc">
+              We'll discuss your goals, requirements, and timeline to make sure
+              we're aligned before starting.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="process-number">02</div>
+            <h3 class="process-title">Design</h3>
+            <p class="process-desc">
+              I'll build your custom website with clean code, responsive
+              layouts, and attention to detail.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="process-number">03</div>
+            <h3 class="process-title">Revise</h3>
+            <p class="process-desc">
+              We'll review together and refine until everything meets your
+              expectations.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="process-number">04</div>
+            <h3 class="process-title">Launch</h3>
+            <p class="process-desc">
+              Your site goes live. I'll handle deployment, testing, and hand
+              over everything you need.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <h2 class="cta-title">Ready to Start Your Project?</h2>
+          <p class="cta-text">
+            Let's build something great. Book a free consultation or download
+            the full pricing guide for more details.
+          </p>
+          <div class="cta-buttons">
+            <a href="index.html#contact" class="btn btn-primary">Book a Call</a>
+            <a href="services-guide.pdf" class="btn btn-secondary" download
+              >Download Guide (PDF)</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="images/logo.png" alt="{D Logo" class="footer-logo-img" />
+            <span class="footer-logo-name">Deanna Camacho</span>
+          </div>
+          <p class="footer-text">
+            © 2025 Deanna Camacho. Built with
+            <span style="color: var(--accent3)">♥</span> and lots of coffee.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top" aria-label="Back to top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
