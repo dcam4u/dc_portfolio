@@ -1,0 +1,11 @@
+{
+  "name": "deanna-camacho-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website with contact form",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "resend": "^2.0.0"
+  }
+}
